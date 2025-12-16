@@ -1,0 +1,2 @@
+codeql database create C:\Users\liyanqi\Desktop\codeql_dataset\demo\db\python-sql_injection --language=python --source-root C:\Users\liyanqi\Desktop\codeql_dataset\demo\sourceCode
+codeql database analyze C:\Users\liyanqi\Desktop\codeql_dataset\demo\db\python-sql_injection --format=csv --output=C:\Users\liyanqi\Desktop\codeql_dataset\demo\results\sql_injection_results.csv C:\Users\liyanqi\Desktop\codeql_dataset\demo\queries\sql_injection.ql --rerun --search-path C:\Users\liyanqi\.codeql\packages\
